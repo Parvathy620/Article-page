@@ -23,9 +23,9 @@ This project does **not** use CSS or JavaScript (for now). It focuses only on **
 
 ## 📂 Project Structure  
 Article-page/
-│── article.html # Main article page (HTML practice)
-│── README.md # Documentation
-│── Screenshot.png # Project preview (optional)
+-- article.html # Main article page (HTML practice)
+-- README.md # Documentation
+-- Screenshot.png # Project preview (optional)
 
 ## 🛠️ Technologies Used  
 - **HTML5** – for structuring the content  
