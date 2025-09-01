@@ -22,7 +22,7 @@ This project does **not** use CSS or JavaScript (for now). It focuses only on **
 - Structured text with paragraphs and quotes  
 
 ## 📂 Project Structure  
-Article-page/
+Article-page
 -- article.html # Main article page (HTML practice)
 -- README.md # Documentation
 -- Screenshot.png # Project preview (optional)
