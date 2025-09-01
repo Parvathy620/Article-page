@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <style>
+        body {
+      font-family: Georgia, serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .article-container {
+      background-color: #fff;
+      padding: 50px;
+      max-width: 900px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .article-flex {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .headline {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .byline {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .article-image {
+      flex: 1 1 300px;
+      max-width: 500px;
+      width: auto;
+      height: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .content {
+      flex: 2 1 400px;
+    }
+    .content p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    
+    @media (max-width: 767px) {
+      .article-flex {
+        flex-direction: column;
+      }
+      .article-image {
+        max-width: 100%;
+      }
+      .content {
+        border-left: none;
+        padding-left: 0;
+      }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="article-container">
+        <h1 class="headline">City Launches New Park to Promote Urban Green Spaces</h1>
+        <p class="byline">By Jane Doe | July 4, 2025</p>
+    <div class="article-flex">
+    
+            <img src="https://tse2.mm.bing.net/th/id/OIP.XET8NlAx_znFDh1u4I_vSAHaE8?pid=Api&P=0&h=180" alt="View of a city park with green trees and walking paths" class="article-image"/>
+            <div class="content">
+                
+                <p>NEWYORK : The city has officially opened the doors to its newest urban park, designed to bring more green spaces into the heart of downtown. The grand opening ceremony was attended by city officials and enthusiastic residents alike.</p>
+                <p>"This park is a vital step toward a healthier, greener city," said Mayor Smith during the ribbon-cutting event. "It offers a place for relaxation, exercise, and community gatherings."</p>
+                <p>The park features walking paths, a children’s playground, and native plant gardens, promoting both recreation and local biodiversity. City planners hope this initiative will inspire similar projects in other neighborhoods.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
